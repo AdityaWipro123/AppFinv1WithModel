@@ -8,10 +8,15 @@ import joblib
 import altair as alt
 import warnings
 warnings.filterwarnings("ignore")
-
 # ================= CONFIG =================
-MODELS_DIR = "models_saved"
-LOGO_PATH = "Wiprohydraulics.png"   # <-- place logo in same folder
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+MODELS_DIR = os.path.join(BASE_DIR, "models_saved")
+LOGO_PATH = os.path.join(BASE_DIR, "Wiprohydraulics.png")
+
+# # ================= CONFIG =================
+# MODELS_DIR = "models_saved"
+# LOGO_PATH = "Wiprohydraulics.png"   # <-- place logo in same folder
 
 MODEL_OPTIONS = {
     "Linear Regression (all 5)": "LR_all_5",
