@@ -1,7 +1,7 @@
 streamlit>=1.29
 numpy>=2.2.6
 pandas>=2.1
-scikit-learn>=1.7
-joblib>=1.5
+scikit-learn>=1.7.0
+joblib>=1.5.1
 altair>=5.0
 xgboost==3.1.2
