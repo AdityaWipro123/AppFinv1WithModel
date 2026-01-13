@@ -107,8 +107,8 @@ import warnings
 warnings.filterwarnings("ignore")
 
 # ================= CONFIG =================
-MODELS_DIR = "models_saved"
-LOGO_PATH = "Wiprohydraulics.png"   # <-- place logo in same folder
+MODELS_DIR = "./models_saved"
+LOGO_PATH = "./Wiprohydraulics.png"   # <-- place logo in same folder
 
 MODEL_OPTIONS = {
     "Linear Regression (all 5)": "LR_all_5",
