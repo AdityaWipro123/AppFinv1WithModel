@@ -12,6 +12,6 @@ altair >= 5.3.0
 
 # ML stack
 scikit-learn >= 1.7.0
-joblib >= 1.5.1
+joblib >= 1.2.1
 xgboost >= 3.1.2
 
