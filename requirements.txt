@@ -1,6 +1,0 @@
-streamlit>=1.29
-numpy>=1.27
-pandas>=2.1
-scikit-learn==1.8.0
-joblib==1.5.3
-altair>=5.0
